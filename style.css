@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+    box-sizing:border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+}
+.page{
+    background-color:#ECD8E0 ;
+    border-bottom: 4px dashed white;
+    width: 100%;
+    height: 650px;
+}
+.page .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px dashed #ECD8E0;
+}
+.page .navbar .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.page .navbar .name h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    
+}
+#logo{
+    width: 90px;
+    height:100%;
+    margin: 5px 10px;
+}
+.page .navbar .bar a{
+    color:#791127;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 3px;
+    padding: 0 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-right: 2px dashed;
+}
+.page .navbar .bar a:hover{
+   
+    background-color: #ECD8E0;
+    box-shadow:0px 0px 400px 86px #791127;
+    -webkit-box-shadow:0px 0px 400px 86px #791127;
+    -moz-box-shadow:0px 0px 400px 86px #791127;
+    text-decoration: underline #791127;
+}
+
+.page .frontpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page .frontpage .text h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#560F20;
+    margin-left: 50px;
+}
+.page .frontpage .text p{
+    font-family: "Montserrat", sans-serif;
+    color:#560F20;
+    font-size: 1.1rem;
+    padding:10px 50px;
+    margin-left: 50px;
+}
+.page .frontpage .text p span{
+    font-family: "Pacifico", cursive;
+    font-size: 1.5rem;
+}
+.page .frontpage .cover img{
+    margin-top: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+.page .frontpage .cover img:hover{
+    transform: scale(1.1);
+}
+#btn{
+    color: #560F20;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 5px 18px;
+    border-radius: 15px;
+    border: 2px solid #560F20;
+    background-color: #C75C71;
+    margin-left: 280px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+#btn:hover{
+    background:#ECD8E0 ;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.page2{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+    
+}
+.page2 .box{
+    width: 200px;
+    height: 60%;
+    background-color: #C75C71;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.page2 .box h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 50;
+    font-size: 1.1rem;
+    color: black;
+    letter-spacing: 2px;
+}
+.page2 .box h4{
+    font-family: "Montserrat", sans-serif;
+    color: #ECD8E0 ;
+    font-size: 0.9rem;}
+.fa-solid{
+    color: #560F20;
+}
+.fa-regular{
+    color: #560F20;
+}
+.page3 {
+    border-top: 4px dashed white;
+    border-bottom:4px dashed white ;
+    background-color:#ECD8E0 ;
+    height: 550px;
+}
+.page3 h1{
+    font-family: "Pacifico", cursive;
+    color: #560F20;
+    margin:10px 0px; 
+    margin-left: 420px;
+    padding:30px 0px;
+    letter-spacing: 3px;
+    
+}
+.page3 .boxx{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#pic{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+#pic:hover{
+    transform: scale(1.25);
+}
+.page3 .boxx .boxs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 2px dashed #ECD8E0;
+}
+.page3 .boxx .boxs h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 570;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: #791127;
+}
+.page3 .boxx .boxs p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    padding: 15px 0;
+    color:#560F20;
+}
+.page3 .boxx .boxs .price{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+.page3 .boxx .boxs .price span{
+    text-decoration: line-through;
+    font-size: 1rem;
+    padding-left: 5px;
+    color: #C75C71;
+}
+.page4 .offers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.page4 .desserts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    
+}
+.page4 .offers h1{
+    font-family: "Pacifico", cursive;
+    color: #560F20;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.page4 .offers p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    color: #791127;
+}
+#dis{
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+#dis:hover{
+    transform: scale(1.3); 
+}
+.page4 .desserts .dessert h3{
+    font-family: "Pacifico", cursive;
+    color: #C75C71;
+    text-decoration: underline dashed #791127;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    padding:8px 0;
+}
+.page4 .desserts .dessert .icons{
+    background-color: #ECD8E0;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.page4 .desserts .dessert .icons a{
+    color: #560F20;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.page4 .desserts .dessert .icons a:hover{
+    transform: scale(1.5); 
+}
+.page5{
+    background-color: #ECD8E0;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.page5 .customer{
+    display: flex;
+    justify-content: center;
+    border-top: 4px dashed white;
+}
+.page5 .customer h1{
+    padding-top: 30px;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 2px;
+}
+.page5 .customer h1 span{
+    color: #C75C71;
+}
+.page5 .users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+#person{
+    width: 70px;
+    border-radius: 60px;
+}
+.page5 .users .user{
+    padding: 20px 20px;
+    width: 28%;
+    height: 240px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.page5 .users .user .stars{
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    color: #560F20;
+}
+.page5 .users .user p{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    height: 60px;
+    padding-top: 8px;
+}
+.page5 .users .userr{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    align-items: center;
+}
+.page5 .users .userr .userinfo{
+    padding: 0 10px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+.page5 .users .userr .userinfo span{
+    color: #C75C71;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.page6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 4px dashed #ECD8E0;
+    padding-top: 30px;
+}
+.page6 .contact h1{
+    font-family: "Pacifico", cursive;
+    letter-spacing: 2px;
+    color: #C75C71;
+    margin-left: 40px;
+}
+.page6 .contact .socials{
+    padding-top: 50px;
+}
+.page6 .contact .socials .social{
+    display: flex;
+    flex-direction: row;
+}
+.page6 .contact .socials h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.page6 .contact .socials h3 span{
+    color: #C75C71;
+    font-weight: 500; 
+}
+.page6 .contact .socials #msg{
+    height: 100px;
+    width: 400px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(192, 190, 190);
+}
